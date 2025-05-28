@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+:root {
+    --cor-principal: #3c88df;
+    --cor-secundaria: #ff0000;
+    --cor-destaque: #ecf811;
+}
+
+body {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: #3c88df;
+}
+
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead,
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a,
+.btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
